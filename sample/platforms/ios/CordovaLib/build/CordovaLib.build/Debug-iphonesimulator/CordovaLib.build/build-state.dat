@@ -105,782 +105,782 @@ t1382730448
 s416
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDV.h
-c0000000052955C4A00000000000006A3
-t1385520202
+c0000000052955DB500000000000006A3
+t1385520565
 s1699
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVAccelerometer.h
-c0000000052955C4A00000000000004A4
-t1385520202
+c0000000052955DB500000000000004A4
+t1385520565
 s1188
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m
-c0000000052955C4A000000000000105A
-t1385520202
+c0000000052955DB5000000000000105A
+t1385520565
 s4186
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c0000000052955C4A0000000000000C47
-t1385520202
+c0000000052955DB50000000000000C47
+t1385520565
 s3143
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVBattery.h
-c0000000052955C4A000000000000053A
-t1385520202
+c0000000052955DB5000000000000053A
+t1385520565
 s1338
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVBattery.m
-c0000000052955C4A000000000000163B
-t1385520202
+c0000000052955DB5000000000000163B
+t1385520565
 s5691
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCamera.h
-c0000000052955C4A0000000000000F74
-t1385520202
+c0000000052955DB50000000000000F74
+t1385520565
 s3956
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCamera.m
-c0000000052955C4A00000000000076C4
-t1385520202
+c0000000052955DB500000000000076C4
+t1385520565
 s30404
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCapture.h
-c0000000052955C4A000000000000123F
-t1385520202
+c0000000052955DB5000000000000123F
+t1385520565
 s4671
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCapture.m
-c0000000052955C4A0000000000008E25
-t1385520202
+c0000000052955DB50000000000008E25
+t1385520565
 s36389
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c0000000052955C4A00000000000008BA
-t1385520202
+c0000000052955DB500000000000008BA
+t1385520565
 s2234
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c0000000052955C4A0000000000000473
-t1385520202
+c0000000052955DB50000000000000473
+t1385520565
 s1139
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c0000000052955C4A000000000000126E
-t1385520202
+c0000000052955DB5000000000000126E
+t1385520565
 s4718
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c0000000052955C4A0000000000000501
-t1385520202
+c0000000052955DB50000000000000501
+t1385520565
 s1281
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c0000000052955C4A0000000000001647
-t1385520202
+c0000000052955DB50000000000001647
+t1385520565
 s5703
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c0000000052955C4A00000000000004CB
-t1385520202
+c0000000052955DB500000000000004CB
+t1385520565
 s1227
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c0000000052955C4A0000000000001041
-t1385520202
+c0000000052955DB50000000000001041
+t1385520565
 s4161
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVConnection.h
-c0000000052955C4A000000000000043E
-t1385520202
+c0000000052955DB5000000000000043E
+t1385520565
 s1086
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVConnection.m
-c0000000052955C4A0000000000001130
-t1385520202
+c0000000052955DB50000000000001130
+t1385520565
 s4400
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVContact.h
-c0000000052955C4A0000000000001640
-t1385520202
+c0000000052955DB50000000000001640
+t1385520565
 s5696
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVContact.m
-c0000000052955C4A00000000000137BD
-t1385520202
+c0000000052955DB500000000000137BD
+t1385520565
 s79805
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVContacts.h
-c0000000052955C4A00000000000014F1
-t1385520202
+c0000000052955DB500000000000014F1
+t1385520565
 s5361
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVContacts.m
-c0000000052955C4A0000000000006841
-t1385520202
+c0000000052955DB50000000000006841
+t1385520565
 s26689
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c0000000052955C4A0000000000000401
-t1385520202
+c0000000052955DB50000000000000401
+t1385520565
 s1025
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVDevice.h
-c0000000052955C4A00000000000003B5
-t1385520202
+c0000000052955DB500000000000003B5
+t1385520565
 s949
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVDevice.m
-c0000000052955C4A0000000000000C04
-t1385520202
+c0000000052955DB50000000000000C04
+t1385520565
 s3076
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVEcho.h
-c0000000052955C4A0000000000000342
-t1385520202
+c0000000052955DB50000000000000342
+t1385520565
 s834
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVEcho.m
-c0000000052955C4A00000000000008DA
-t1385520202
+c0000000052955DB500000000000008DA
+t1385520565
 s2266
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVExif.h
-c0000000052955C4A0000000000000666
-t1385520202
+c0000000052955DB50000000000000666
+t1385520565
 s1638
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVFile.h
-c0000000052955C4A000000000000105B
-t1385520202
+c0000000052955DB5000000000000105B
+t1385520565
 s4187
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVFile.m
-c0000000052955C4A000000000000FC3C
-t1385520202
+c0000000052955DB5000000000000FC3C
+t1385520565
 s64572
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVFileTransfer.h
-c0000000052955C4A0000000000000C6E
-t1385520202
+c0000000052955DB50000000000000C6E
+t1385520565
 s3182
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVFileTransfer.m
-c0000000052955C4A0000000000007D28
-t1385520202
+c0000000052955DB50000000000007D28
+t1385520565
 s32040
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVGlobalization.h
-c0000000052955C4A0000000000001903
-t1385520202
+c0000000052955DB50000000000001903
+t1385520565
 s6403
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVGlobalization.m
-c0000000052955C4A00000000000085E3
-t1385520202
+c0000000052955DB500000000000085E3
+t1385520565
 s34275
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVInAppBrowser.h
-c0000000052955C4A0000000000000CA4
-t1385520202
+c0000000052955DB50000000000000CA4
+t1385520565
 s3236
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVInAppBrowser.m
-c0000000052955C4A000000000000837F
-t1385520202
+c0000000052955DB5000000000000837F
+t1385520565
 s33663
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c0000000052955C4A0000000000000906
-t1385520202
+c0000000052955DB50000000000000906
+t1385520565
 s2310
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c0000000052955C4A00000000000010D4
-t1385520202
+c0000000052955DB500000000000010D4
+t1385520565
 s4308
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c0000000052955C4A00000000000003DA
-t1385520202
+c0000000052955DB500000000000003DA
+t1385520565
 s986
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c0000000052955C4A000000000000098E
-t1385520202
+c0000000052955DB5000000000000098E
+t1385520565
 s2446
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVJpegHeaderWriter.h
-c0000000052955C4A0000000000000AE3
-t1385520202
+c0000000052955DB50000000000000AE3
+t1385520565
 s2787
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVJpegHeaderWriter.m
-c0000000052955C4A000000000000672A
-t1385520202
+c0000000052955DB5000000000000672A
+t1385520565
 s26410
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c0000000052955C4A00000000000006CF
-t1385520202
+c0000000052955DB500000000000006CF
+t1385520565
 s1743
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c0000000052955C4A0000000000004C6C
-t1385520202
+c0000000052955DB50000000000004C6C
+t1385520565
 s19564
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLocation.h
-c0000000052955C4A0000000000000E25
-t1385520202
+c0000000052955DB50000000000000E25
+t1385520565
 s3621
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLocation.m
-c0000000052955C4A0000000000005CD1
-t1385520202
+c0000000052955DB50000000000005CD1
+t1385520565
 s23761
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLogger.h
-c0000000052955C4A0000000000000377
-t1385520202
+c0000000052955DB50000000000000377
+t1385520565
 s887
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVLogger.m
-c0000000052955C4A0000000000000488
-t1385520202
+c0000000052955DB50000000000000488
+t1385520565
 s1160
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVNotification.h
-c0000000052955C4A00000000000004E4
-t1385520202
+c0000000052955DB500000000000004E4
+t1385520565
 s1252
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVNotification.m
-c0000000052955C4A000000000000127E
-t1385520202
+c0000000052955DB5000000000000127E
+t1385520565
 s4734
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c0000000052955C4A0000000000000892
-t1385520202
+c0000000052955DB50000000000000892
+t1385520565
 s2194
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c0000000052955C4A00000000000016AE
-t1385520202
+c0000000052955DB500000000000016AE
+t1385520565
 s5806
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c0000000052955C4A0000000000000C13
-t1385520202
+c0000000052955DB50000000000000C13
+t1385520565
 s3091
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c0000000052955C4A0000000000001B29
-t1385520202
+c0000000052955DB50000000000001B29
+t1385520565
 s6953
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVReachability.h
-c0000000052955C4A0000000000000FF4
-t1385520202
+c0000000052955DB50000000000000FF4
+t1385520565
 s4084
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVReachability.m
-c0000000052955C4A00000000000026F6
-t1385520202
+c0000000052955DB500000000000026F6
+t1385520565
 s9974
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c0000000052955C4A0000000000000408
-t1385520202
+c0000000052955DB50000000000000408
+t1385520565
 s1032
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVSound.h
-c0000000052955C4A0000000000000E0C
-t1385520202
+c0000000052955DB50000000000000E0C
+t1385520565
 s3596
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVSound.m
-c0000000052955C4A00000000000075F0
-t1385520202
+c0000000052955DB500000000000075F0
+t1385520565
 s30192
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVSplashScreen.h
-c0000000052955C4A0000000000000445
-t1385520202
+c0000000052955DB50000000000000445
+t1385520565
 s1093
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVSplashScreen.m
-c0000000052955C4A0000000000002098
-t1385520202
+c0000000052955DB50000000000002098
+t1385520565
 s8344
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c0000000052955C4A000000000000038D
-t1385520202
+c0000000052955DB5000000000000038D
+t1385520565
 s909
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c0000000052955C4A0000000000000AA2
-t1385520202
+c0000000052955DB50000000000000AA2
+t1385520565
 s2722
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c0000000052955C4A000000000000041C
-t1385520202
+c0000000052955DB5000000000000041C
+t1385520565
 s1052
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c0000000052955C4A00000000000024E4
-t1385520202
+c0000000052955DB500000000000024E4
+t1385520565
 s9444
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c0000000052955C4A0000000000000421
-t1385520202
+c0000000052955DB50000000000000421
+t1385520565
 s1057
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c0000000052955C4A00000000000012A2
-t1385520202
+c0000000052955DB500000000000012A2
+t1385520565
 s4770
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c0000000052955C4A0000000000000B67
-t1385520202
+c0000000052955DB50000000000000B67
+t1385520565
 s2919
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c0000000052955C4A000000000000872B
-t1385520202
+c0000000052955DB5000000000000872B
+t1385520565
 s34603
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c0000000052955C4A00000000000005A2
-t1385520202
+c0000000052955DB500000000000005A2
+t1385520565
 s1442
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c0000000052955C4A0000000000003629
-t1385520202
+c0000000052955DB50000000000003629
+t1385520565
 s13865
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c0000000052955C4A00000000000004B4
-t1385520202
+c0000000052955DB500000000000004B4
+t1385520565
 s1204
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c0000000052955C4A0000000000002216
-t1385520202
+c0000000052955DB50000000000002216
+t1385520565
 s8726
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c0000000052955C4A0000000000000392
-t1385520202
+c0000000052955DB50000000000000392
+t1385520565
 s914
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c0000000052955C4A00000000000004D8
-t1385520202
+c0000000052955DB500000000000004D8
+t1385520565
 s1240
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c0000000052955C4A000000000000037D
-t1385520202
+c0000000052955DB5000000000000037D
+t1385520565
 s893
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c0000000052955C4A00000000000022CC
-t1385520202
+c0000000052955DB500000000000022CC
+t1385520565
 s8908
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c0000000052955C4A00000000000005DA
-t1385520202
+c0000000052955DB500000000000005DA
+t1385520565
 s1498
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c0000000052955C4A0000000000001059
-t1385520202
+c0000000052955DB50000000000001059
+t1385520565
 s4185
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c0000000052955C4A00000000000003A0
-t1385520202
+c0000000052955DB500000000000003A0
+t1385520565
 s928
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c0000000052955C4A0000000000000584
-t1385520202
+c0000000052955DB50000000000000584
+t1385520565
 s1412
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c0000000052955C4A0000000000000476
-t1385520202
+c0000000052955DB50000000000000476
+t1385520565
 s1142
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c0000000052955C4A0000000000000620
-t1385520202
+c0000000052955DB50000000000000620
+t1385520565
 s1568
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c0000000052955C4A0000000000000346
-t1385520202
+c0000000052955DB50000000000000346
+t1385520565
 s838
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o
-t1385520207
+t1385520593
 s58600
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVBattery.o
-t1385520208
+t1385520594
 s60820
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCamera.o
-t1385520207
+t1385520593
 s149696
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCapture.o
-t1385520208
+t1385520594
 s182256
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1385520209
+t1385520595
 s63228
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1385520209
+t1385520595
 s59876
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1385520209
+t1385520595
 s28392
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConnection.o
-t1385520207
+t1385520594
 s59244
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContact.o
-t1385520207
+t1385520593
 s141828
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContacts.o
-t1385520207
+t1385520593
 s125512
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVDevice.o
-t1385520209
+t1385520595
 s53076
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
-t1385520209
+t1385520595
 s48956
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVFile.o
-t1385520207
+t1385520593
 s186064
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVFileTransfer.o
-t1385520208
+t1385520594
 s162108
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVGlobalization.o
-t1385520209
+t1385520595
 s105288
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInAppBrowser.o
-t1385520209
+t1385520595
 s191720
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1385520206
+t1385520593
 s20548
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1385520209
+t1385520595
 s10924
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJpegHeaderWriter.o
-t1385520209
+t1385520595
 s62112
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1385520208
+t1385520595
 s109588
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocation.o
-t1385520207
+t1385520593
 s130208
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLogger.o
-t1385520208
+t1385520595
 s43852
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVNotification.o
-t1385520207
+t1385520593
 s69364
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1385520208
+t1385520594
 s59576
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1385520207
+t1385520593
 s37288
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVReachability.o
-t1385520207
+t1385520593
 s21124
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSound.o
-t1385520207
+t1385520593
 s132592
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSplashScreen.o
-t1385520208
+t1385520594
 s71256
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1385520209
+t1385520595
 s23000
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1385520208
+t1385520594
 s71136
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1385520209
+t1385520595
 s52784
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1385520208
+t1385520595
 s168028
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1385520209
+t1385520595
 s69408
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1385520208
+t1385520594
 s31532
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000052955C4E0000000000001B1E
-t1385520206
+c0000000052955DB50000000000001B1E
+t1385520565
 s6942
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1385520208
+t1385520594
 s7532
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1385520207
+t1385520593
 s11196
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1385520206
+t1385520593
 s17904
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1385520208
+t1385520594
 s7044
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1385520208
+t1385520594
 s9664
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDV.h
-t1385520206
+t1385520565
 s1699
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVAccelerometer.h
-t1385520206
+t1385520565
 s1188
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVAvailability.h
-t1385520206
+t1385520565
 s3143
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVBattery.h
-t1385520206
+t1385520565
 s1338
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCamera.h
-t1385520206
+t1385520565
 s3956
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCapture.h
-t1385520206
+t1385520565
 s4671
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-t1385520206
+t1385520565
 s2234
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
-t1385520206
+t1385520565
 s1139
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandQueue.h
-t1385520206
+t1385520565
 s1281
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVConfigParser.h
-t1385520206
+t1385520565
 s1227
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVConnection.h
-t1385520206
+t1385520565
 s1086
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVContact.h
-t1385520206
+t1385520565
 s5696
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVContacts.h
-t1385520206
+t1385520565
 s5361
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVDebug.h
-t1385520206
+t1385520565
 s1025
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVDevice.h
-t1385520206
+t1385520565
 s949
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVEcho.h
-t1385520206
+t1385520565
 s834
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVExif.h
-t1385520206
+t1385520565
 s1638
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVFile.h
-t1385520206
+t1385520565
 s4187
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVFileTransfer.h
-t1385520206
+t1385520565
 s3182
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVGlobalization.h
-t1385520206
+t1385520565
 s6403
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVInAppBrowser.h
-t1385520206
+t1385520565
 s3236
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
-t1385520206
+t1385520565
 s2310
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVJSON.h
-t1385520206
+t1385520565
 s986
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVJpegHeaderWriter.h
-t1385520206
+t1385520565
 s2787
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-t1385520206
+t1385520565
 s1743
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVLocation.h
-t1385520206
+t1385520565
 s3621
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVLogger.h
-t1385520206
+t1385520565
 s887
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVNotification.h
-t1385520206
+t1385520565
 s1252
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPlugin.h
-t1385520206
+t1385520565
 s2194
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPluginResult.h
-t1385520206
+t1385520565
 s3091
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVReachability.h
-t1385520206
+t1385520565
 s4084
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
-t1385520206
+t1385520565
 s1032
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVSound.h
-t1385520206
+t1385520565
 s3596
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVSplashScreen.h
-t1385520206
+t1385520565
 s1093
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVTimer.h
-t1385520206
+t1385520565
 s909
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-t1385520206
+t1385520565
 s1052
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
-t1385520206
+t1385520565
 s1057
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h
-t1385520206
+t1385520565
 s2919
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
-t1385520206
+t1385520565
 s1442
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVWhitelist.h
-t1385520206
+t1385520565
 s1204
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-t1385520206
+t1385520565
 s914
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSData+Base64.h
-t1385520206
+t1385520565
 s893
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
-t1385520206
+t1385520565
 s1498
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
-t1385520206
+t1385520565
 s928
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
-t1385520206
+t1385520565
 s1142
 
 N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a
-t1385520209
+t1385520659
 s2937376
 
 N/var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bmdqrtuevoxafgfquujrubqjnhmc/CordovaLib_Prefix.pch.pch
-t1385520206
+t1385520592
 s3202528
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6b8109d69345b841^32ca3bd69345b841^---0#1#1#--18"Check dependencies36"42A8073E-F999-4248-B1FE-8F6820E61ED8-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf67b1a179d45b841^302e49179d45b841^---0#1#1#--18"Check dependencies36"DC81FE43-C208-4BF4-B294-2E9DDF160ACA-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s407213007.333640

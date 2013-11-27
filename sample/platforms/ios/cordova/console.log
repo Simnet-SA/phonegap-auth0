@@ -2,3 +2,19 @@
 2013-11-26 23:43:42.196 Auth0Sample[52068:80b] Resetting plugins due to page load.
 2013-11-26 23:43:42.345 Auth0Sample[52068:80b] Finished load of: file:///Users/sebas/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03066CCF-0DBB-43D2-9EF8-29C78EEB9114/Auth0Sample.app/www/index.html
 2013-11-26 23:43:42.378 Auth0Sample[52068:80b] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-11-27 00:15:37.060 Auth0Sample[53871:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-27 00:15:37.421 Auth0Sample[53871:80b] Resetting plugins due to page load.
+2013-11-27 00:15:37.535 Auth0Sample[53871:80b] Finished load of: file:///Users/sebas/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03066CCF-0DBB-43D2-9EF8-29C78EEB9114/Auth0Sample.app/www/index.html
+2013-11-27 00:15:37.563 Auth0Sample[53871:80b] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-11-27 00:18:28.310 Auth0Sample[54249:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-27 00:18:28.604 Auth0Sample[54249:80b] Resetting plugins due to page load.
+2013-11-27 00:18:28.696 Auth0Sample[54249:80b] Finished load of: file:///Users/sebas/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03066CCF-0DBB-43D2-9EF8-29C78EEB9114/Auth0Sample.app/www/index.html
+2013-11-27 00:18:28.724 Auth0Sample[54249:80b] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-11-27 00:19:03.186 Auth0Sample[54621:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-27 00:19:03.480 Auth0Sample[54621:80b] Resetting plugins due to page load.
+2013-11-27 00:19:03.573 Auth0Sample[54621:80b] Finished load of: file:///Users/sebas/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03066CCF-0DBB-43D2-9EF8-29C78EEB9114/Auth0Sample.app/www/index.html
+2013-11-27 00:19:03.591 Auth0Sample[54621:80b] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-11-27 00:23:10.664 Auth0Sample[55011:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-27 00:23:10.940 Auth0Sample[55011:80b] Resetting plugins due to page load.
+2013-11-27 00:23:11.053 Auth0Sample[55011:80b] Finished load of: file:///Users/sebas/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03066CCF-0DBB-43D2-9EF8-29C78EEB9114/Auth0Sample.app/www/index.html
+2013-11-27 00:23:11.082 Auth0Sample[55011:80b] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 

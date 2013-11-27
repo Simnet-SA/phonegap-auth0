@@ -1,5 +1,5 @@
-46309f9204aed80ea926c98b084f8903 a88f21027251c49cbd55a6629f5b0136 ffffffffffffffffffffffffffffffff 782 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
-0000000052955c51000000000000073f 8eb9aa025e57b1914fe33bf96b0d5d5c ffffffffffffffffffffffffffffffff 0 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/PkgInfo
+46309f9204aee033a926c98b084f8903 a88f21027251c49cbd55a6629f5b0136 ffffffffffffffffffffffffffffffff 782 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
+0000000052956593000000000000073f 8eb9aa025e57b1914fe33bf96b0d5d5c ffffffffffffffffffffffffffffffff 0 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/PkgInfo
 0000000052955c4a0000000000002dba 7817be717110270faffa344e3793f5c0 ffffffffffffffffffffffffffffffff 11706 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72@2x.png
 0000000052955c4a00000000000085b1 5c7e2359b28ba9e866cc90979cccb011 ffffffffffffffffffffffffffffffff 34225 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-568h@2x~iphone.png
 0000000052955c4a000000000000289a a373d3084ab4a4c2c200eebc6e8c8024 ffffffffffffffffffffffffffffffff 10394 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default~iphone.png
@@ -17,9 +17,9 @@
 0000000052955c4a0000000000001ebd a9656ba3016d486e43ff0ddead4781bc ffffffffffffffffffffffffffffffff 7869 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon@2x.png
 0000000052955c4a0000000000000f3e 4968848e0416b10efacf57dcccf08d5f ffffffffffffffffffffffffffffffff 3902 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon.png
 0000000052955c4a0000000000001350 e79d862f8d2cadd0b15b4e1cc5d84fa3 ffffffffffffffffffffffffffffffff 4944 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72.png
-0000000052955c51000000000000102c 9794bccbcbdc81962e34848c13f97773 ffffffffffffffffffffffffffffffff 4140 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/config.xml
-caf4570158fab42c5f814bc4bd46a528 f1f300a9f0179193fdfccae110e396a0 ffffffffffffffffffffffffffffffff 102 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM
-0000000052955c51000000000000073f 8eb9aa025e57b1914fe33bf96b0d5d5c ffffffffffffffffffffffffffffffff 1074 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist
+000000005295658f000000000000102c 9794bccbcbdc81962e34848c13f97773 ffffffffffffffffffffffffffffffff 4140 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/config.xml
+caf4570158fa8dee5f814bc4bd46a528 f1f300a9f0179193fdfccae110e396a0 ffffffffffffffffffffffffffffffff 102 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM
+0000000052956593000000000000073f 8eb9aa025e57b1914fe33bf96b0d5d5c ffffffffffffffffffffffffffffffff 1074 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist
 0629fde8cdb061c2c471fd8f54f3ec21 444dfd0306380ac71062703dd602b991 ffffffffffffffffffffffffffffffff 948152 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
 b2299097316458a1a9b20a2f55c43e9b c20daf36f1721ab372ec5e17b3d19024 ffffffffffffffffffffffffffffffff 53624 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o
 b2299097316458a1a9b20a2f55c43f2b 79fe3e938a1cfbded944bb4f5a9f1e09 ffffffffffffffffffffffffffffffff 77856 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o
