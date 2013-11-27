@@ -7,7 +7,7 @@
   <name>Auth0</name>
   
   <description>
-    [TBC]
+    Client library for the Auth0 API
   </description>
   
   <asset src="www/auth0.js" target="auth0.js" />
