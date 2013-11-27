@@ -12,7 +12,7 @@
 
   <keywords>auth0 oauth federation wsfed adfs office365 googleapps</keywords>
 
-  <license>MIT License</license>
+  <license>MIT</license>
   
   <asset src="www/auth0.js" target="auth0.js" />
 
