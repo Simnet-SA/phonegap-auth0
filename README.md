@@ -6,7 +6,13 @@
 	phonegap local plugin add https://github.com/auth0/phonegap-auth0
 	~~~
 	
-2. Instantiate Auth0Client
+2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
+
+	~~~javascript
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	~~~
+	
+3. Instantiate Auth0Client:
 
 	~~~javascript
 	var auth0 = new Auth0Client(
@@ -17,7 +23,7 @@
   
   > Note: it is recommended to store the secret safely.
 
-3. Trigger login (with Widget) 
+4. Trigger login (with Widget):
 
 	~~~javascript
 	auth0.Login(function (err, result) {
@@ -32,7 +38,7 @@
 	});
 	~~~
 
-Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account)
+Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account):
 
 ~~~javascript
 auth0.Login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
@@ -47,7 +53,7 @@ auth0.Login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, res
 });
 ~~~
 
-Or with specific user name and password (only for providers that support this)
+Or with specific user name and password (only for providers that support this):
 
 ~~~javascript
 auth0.Login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
