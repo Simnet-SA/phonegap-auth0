@@ -1,5 +1,8 @@
 function Auth0Client(domain, clientId, clientSecret) {
 
+  // validations
+  if (!$) throw new Error('You must include jquery to use Auth0 plugin');
+
   this.AuthorizeUrl           = "https://{domain}/authorize";
   this.LoginWidgetUrl         = "https://{domain}/login/";
   this.ResourceOwnerEndpoint  = "https://{domain}/oauth/ro";
@@ -29,7 +32,10 @@ Auth0Client.prototype.login = function (options, callback) {
   options.scope = options.scope ? encodeURI(options.scope) : "openid";
   options.connection = options.connection || '';
 
-  var done = function (result) {
+  // done
+  var done = function (err, result) {
+    if (err) return callback(err);
+
     var endpoint = userInfoEndpoint + result.access_token;
     getUserInfo(endpoint, function (err, profile) {
       if (err) return callback(err);
@@ -46,11 +52,23 @@ Auth0Client.prototype.login = function (options, callback) {
 
   if (options.connection && options.username) {
     // RO endpoint
-    //var endpoint = this.ResourceOwnerEndpoint.replace(/{domain}/, this.domain);
-    //var parameters = "client_id=" + this.clientId + "&client_secret=" + this.clientSecret + "&connection=" + options.connection + "&username=" + options.username + "&password=" + options.password + "&grant_type=password&scope=" + options.scope;
+    var endpoint = this.ResourceOwnerEndpoint.replace(/{domain}/, this.domain);
 
-    // TODO
-    callback();
+    $.post(endpoint, {
+      "client_id":      this.clientId,
+      "client_secret":  this.clientSecret,
+      "connection":     options.connection,
+      "username":       options.username,
+      "password":       options.password,
+      "scope":          options.scope,
+      "grant_type":     'password'
+    })
+    .done(function (result) {
+      done(null, result);
+    })
+    .fail(function (resp) {
+      done(new Error(resp.responseJSON ? resp.responseJSON.error : resp.responseText));
+    });
   }
   else {
     
@@ -66,36 +84,40 @@ Auth0Client.prototype.login = function (options, callback) {
     var authWindow = window.open(options.connection ? auth0Url : loginWidgetUrl, '_blank', 'location=no,toolbar=no');
     authWindow.addEventListener('loadstart', function (e) {
 
-      alert(JSON.stringify(e));
-
       if (e.url.indexOf(callbackUrl + '#') !== 0) return;
       
       var parsedResult = parseResult(e.url);
       authWindow.close();
-      return done(parsedResult);
+      return done(null, parsedResult);
     });
   }
 };
 
 Auth0Client.prototype._getUserInfo = function (endpoint, callback) {
 
-  // TODO
-  callback(null, {
-    profile: { name: 'jdoe' }
+  $.ajax({
+    url: endpoint,
+    dataType: 'json'
+  })
+  .done(function (profile) {
+    callback(null, profile);
+  })
+  .fail(function (resp) {
+    callback(new Error(resp.responseText));
   });
 };
 
 Auth0Client.prototype._parseResult = function (result) {
 
-    var tokens = {};
-    var strTokens = result.split("#")[1].split("&");
+  var tokens = {};
+  var strTokens = result.split("#")[1].split("&");
 
-    for (var i in strTokens) {
-        var tok = strTokens[i].split("=");
-        tokens[tok[0]] = tok[1];
-    }
+  for (var i in strTokens) {
+      var tok = strTokens[i].split("=");
+      tokens[tok[0]] = tok[1];
+  }
 
-    return tokens;
+  return tokens;
 };
 
 module.exports = Auth0Client;
