@@ -1,6 +1,73 @@
 ## Usage
 
-[TBC]
+1. Install plugin into your project:
+
+	~~~
+	phonegap local plugin add https://github.com/auth0/phonegap-auth0
+	~~~
+	
+2. Instantiate Auth0Client
+
+	~~~javascript
+	var auth0 = new Auth0Client(
+		"YOUR_AUTH0_DOMAIN", // e.g.: "mytenant.auth0.com"
+		"YOUR_CLIENT_ID",
+		"YOUR_CLIENT_SECRET");
+	~~~
+  
+  > Note: it is recommended to store the secret safely.
+
+3. Trigger login (with Widget) 
+
+	~~~javascript
+	auth0.Login(function (err, result) {
+		if (err) return err;
+		/* 
+		Use result to do wonderful things, e.g.: 
+  		- get user email => result.profile.email
+  		- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
+  		- get Windows Azure AD groups => result.profile.groups
+  		- etc.
+		*/
+	});
+	~~~
+
+Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account)
+
+~~~javascript
+auth0.Login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
+	if (err) return err;
+	/* 
+	Use result to do wonderful things, e.g.: 
+		- get user email => result.profile.email
+		- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
+		- get Windows Azure AD groups => result.profile.groups
+		- etc.
+	*/
+});
+~~~
+
+Or with specific user name and password (only for providers that support this)
+
+~~~javascript
+auth0.Login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
+	if (err) return err;
+	/* 
+	Use result to do wonderful things, e.g.: 
+		- get user email => result.profile.email
+		- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
+		- get Windows Azure AD groups => result.profile.groups
+		- etc.
+	*/
+});
+~~~
+
+### Scope
+
+Optionally you can specify the `scope` parameter. There are two possible values for scope today:
+
+* __scope: "openid"__ _(default)_ - It will return, not only the `access_token`, but also an `id_token` which is a Json Web Token (JWT). The JWT will only contain the user id.
+* __scope: "openid profile"__ - If you want the entire user profile to be part of the `id_token`.
 
 ## License
 
