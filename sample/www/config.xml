@@ -2,10 +2,10 @@
 <widget id="com.auth0.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Auth0Sample</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Auth0 sample application.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="support@auth0.com" href="http://auth0.com">
+        Auth0
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
