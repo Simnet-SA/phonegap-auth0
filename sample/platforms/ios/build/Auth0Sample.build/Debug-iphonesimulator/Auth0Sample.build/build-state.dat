@@ -1,0 +1,1123 @@
+TAuth0Sample
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Auth0Sample/config.xml build/Auth0Sample.app/config.xml
+cCpResource Auth0Sample/Resources/icons/icon-72.png build/Auth0Sample.app/icon-72.png
+cCpResource Auth0Sample/Resources/icons/icon.png build/Auth0Sample.app/icon.png
+cCpResource Auth0Sample/Resources/icons/icon@2x.png build/Auth0Sample.app/icon@2x.png
+cCpResource Auth0Sample/Resources/Capture.bundle build/Auth0Sample.app/Capture.bundle
+cCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/en.lproj/Localizable.strings Auth0Sample/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/es.lproj/Localizable.strings Auth0Sample/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib
+cCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/de.lproj/Localizable.strings Auth0Sample/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/se.lproj/Localizable.strings Auth0Sample/Resources/se.lproj/Localizable.strings
+cCpResource Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png build/Auth0Sample.app/Default-Landscape@2x~ipad.png
+cCpResource Auth0Sample/Resources/splash/Default-Landscape~ipad.png build/Auth0Sample.app/Default-Landscape~ipad.png
+cCpResource Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png build/Auth0Sample.app/Default-Portrait@2x~ipad.png
+cCpResource Auth0Sample/Resources/splash/Default-Portrait~ipad.png build/Auth0Sample.app/Default-Portrait~ipad.png
+cCpResource Auth0Sample/Resources/splash/Default@2x~iphone.png build/Auth0Sample.app/Default@2x~iphone.png
+cCpResource Auth0Sample/Resources/splash/Default~iphone.png build/Auth0Sample.app/Default~iphone.png
+cCpResource Auth0Sample/Resources/splash/Default-568h@2x~iphone.png build/Auth0Sample.app/Default-568h@2x~iphone.png
+cCpResource Auth0Sample/Resources/icons/icon-72@2x.png build/Auth0Sample.app/icon-72@2x.png
+cProcessPCH /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch Auth0Sample/Auth0Sample-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample normal i386
+cGenerateDSYMFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
+cTouch /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimu/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSi/Users/sebas/Documents/Projects/phonegap-a/Users/sebas/Documents/Projects/phonegap-auth0/sample/pl/Applications/Xcode.app/Contents/Developer/Platforms/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iP/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000526ACAC500000000000003B5
+t1382730437
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526ACAD000000000000001A0
+t1382730448
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000526ACAD2000000000047C980
+t1382730450
+s4704640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000526ACAD20000000000098030
+t1382730450
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000526ACAD10000000000191F30
+t1382730449
+s1646384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000526ACAD200000000004F2C70
+t1382730450
+s5188720
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000526ACAD10000000000059350
+t1382730449
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000526ACAD300000000009040F0
+t1382730451
+s9453808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000526ACAD300000000005838D0
+t1382730451
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000526ACAD300000000005B82A0
+t1382730451
+s5997216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526ACAD30000000000445870
+t1382730451
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000526ACAD300000000000EC820
+t1382730451
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000526ACAD30000000000133B60
+t1382730451
+s1260384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526ACAD5000000000088C680
+t1382730453
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000526ACAD70000000000666670
+t1382730455
+s6710896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000526ACAD7000000000070DDC0
+t1382730455
+s7396800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000526ACAD700000000001BA530
+t1382730455
+s1811760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000526ACAD7000000000007C070
+t1382730455
+s508016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000526ACAD800000000004848F0
+t1382730456
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000526ACAD900000000001081B0
+t1382730457
+s1081776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526ACADD0000000001DB9910
+t1382730461
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000526ACAF200000000002B9F20
+t1382730482
+s2858784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+c00000000526ACAFC0000000000002338
+t1382730492
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c00000000526ACAFD000000000008D300
+t1382730493
+s578304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+c00000000526ACAFD000000000038ACB0
+t1382730493
+s3714224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+c00000000526742E900000000000141F0
+t1382499049
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c00000000526ACAFD0000000000013500
+t1382730493
+s79104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000526ACAFD0000000000033BA0
+t1382730493
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000526ACAFD000000000001CFB0
+t1382730493
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000526ACAFD000000000001B2B0
+t1382730493
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c00000000526ACAFD00000000000632B0
+t1382730493
+s406192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000526ACAFD0000000000008880
+t1382730493
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000526ACAFD0000000000015080
+t1382730493
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000526ACAFD00000000000230E0
+t1382730493
+s143584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000526ACAFD000000000000E380
+t1382730493
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c00000000526ACAFE0000000000087200
+t1382730494
+s553472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c00000000526ACAFE00000000000171A0
+t1382730494
+s94624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000526ACAFE0000000000039C10
+t1382730494
+s236560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000526ACAFE000000000000B0B0
+t1382730494
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000526ACAFE0000000000167FE0
+t1382730494
+s1474528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000526ACAFE00000000000106A0
+t1382730494
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000526ACAFE000000000001CE40
+t1382730494
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000526ACAFE0000000000071040
+t1382730494
+s462912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000526ACAFE0000000000067A10
+t1382730494
+s424464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000526ACAFE000000000001BAD0
+t1382730494
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c00000000526ACAFE0000000000088BA0
+t1382730494
+s560032
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c00000000526ACB22000000000000B870
+t1382730530
+s47216
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c00000000526ACB220000000000005004
+t1382730530
+s20484
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist
+c0000000052953EEB000000000000073F
+t1385512683
+s1855
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Prefix.pch
+c0000000052952EF500000000000003C7
+t1385508597
+s967
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.h
+c0000000052952EF500000000000005BB
+t1385508597
+s1467
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m
+c0000000052952EF500000000000013DC
+t1385508597
+s5084
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.h
+c0000000052952EF500000000000004D1
+t1385508597
+s1233
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m
+c0000000052952EF5000000000000126C
+t1385508597
+s4716
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib
+c0000000052952EF40000000000001759
+t1385508596
+s5977
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/Capture.bundle
+c0000000052952EF4000000000000030E
+t1385508596
+s782
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/de.lproj/Localizable.strings
+c0000000052952EF400000000000004BF
+t1385508596
+s1215
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/en.lproj/Localizable.strings
+c0000000052952EF400000000000004AA
+t1385508596
+s1194
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/es.lproj/Localizable.strings
+c0000000052952EF400000000000004B7
+t1385508596
+s1207
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon-72.png
+c0000000052952EF40000000000001350
+t1385508596
+s4944
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon-72@2x.png
+c0000000052952EF40000000000002DBA
+t1385508596
+s11706
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon.png
+c0000000052952EF40000000000000F3E
+t1385508596
+s3902
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon@2x.png
+c0000000052952EF40000000000001EBD
+t1385508596
+s7869
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/se.lproj/Localizable.strings
+c0000000052952EF400000000000004AB
+t1385508596
+s1195
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-568h@2x~iphone.png
+c0000000052952EF400000000000085B1
+t1385508596
+s34225
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052952EF40000000000012DF4
+t1385508596
+s77300
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Landscape~ipad.png
+c0000000052952EF40000000000008877
+t1385508596
+s34935
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052952EF40000000000012B02
+t1385508596
+s76546
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Portrait~ipad.png
+c0000000052952EF400000000000085E6
+t1385508596
+s34278
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default@2x~iphone.png
+c0000000052952EF40000000000007323
+t1385508596
+s29475
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default~iphone.png
+c0000000052952EF4000000000000289A
+t1385508596
+s10394
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/config.xml
+c0000000052953EEB000000000000103C
+t1385512683
+s4156
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m
+c0000000052952EF5000000000000045D
+t1385508597
+s1117
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
+t1385512687
+s782
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM
+t1385512683
+s102
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
+t1385508619
+s948152
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Capture.bundle
+t1385508610
+s782
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-568h@2x~iphone.png
+t1385508610
+s34225
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Landscape@2x~ipad.png
+t1385508610
+s77300
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Landscape~ipad.png
+t1385508610
+s34935
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Portrait@2x~ipad.png
+t1385508610
+s76546
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Portrait~ipad.png
+t1385508610
+s34278
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default@2x~iphone.png
+t1385508610
+s29475
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default~iphone.png
+t1385508610
+s10394
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist
+t1385512687
+s1074
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/MainViewController.nib
+t1385508613
+s1332
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/PkgInfo
+t2
+s0
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/config.xml
+t1385512683
+s4156
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/de.lproj/Localizable.strings
+t1385508610
+s280
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/en.lproj/Localizable.strings
+t1385508610
+s166
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/es.lproj/Localizable.strings
+t1385508610
+s334
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72.png
+t1385508610
+s4944
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72@2x.png
+t1385508610
+s11706
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon.png
+t1385508610
+s3902
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon@2x.png
+t1385508610
+s7869
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/se.lproj/Localizable.strings
+t1385508610
+s283
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o
+t1385508614
+s77856
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample.LinkFileList
+c0000000052952F0100000000000001F2
+t1385508609
+s498
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o
+t1385508614
+s53624
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o
+t1385508614
+s3140
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh
+c0000000052952F01000000000000051A
+t1385508609
+s1306
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVAvailability.h
+c0000000052952EFA0000000000000C47
+t1385508602
+s3143
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+c0000000052952EFA00000000000008BA
+t1385508602
+s2234
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000052952EFA0000000000000473
+t1385508602
+s1139
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+c0000000052952EFA0000000000000501
+t1385508602
+s1281
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000052952EFA0000000000000906
+t1385508602
+s2310
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPlugin.h
+c0000000052952EFA0000000000000892
+t1385508602
+s2194
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPluginResult.h
+c0000000052952EFA0000000000000C13
+t1385508602
+s3091
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000052952EFA0000000000000408
+t1385508602
+s1032
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h
+c0000000052952EFA0000000000000B67
+t1385508602
+s2919
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVWhitelist.h
+c0000000052952EFA00000000000004B4
+t1385508602
+s1204
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000052952EFA00000000000003A0
+t1385508602
+s928
+
+N/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a
+c0000000052952F0100000000002CD220
+t1385508609
+s2937376
+
+N/usr/lib/libSystem.B.dylib
+c00000000526742D5000000000000E6D0
+t1382499029
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526742E90000000000012A00
+t1382499049
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000526742C2000000000002E320
+t1382499010
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526742D50000000000021860
+t1382499029
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000526742E8000000000001B620
+t1382499048
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000526742E800000000000BD920
+t1382499048
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000526742E9000000000000A120
+t1382499049
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000526742E9000000000001D550
+t1382499049
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526742E70000000000014EE0
+t1382499047
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526742EB0000000000010380
+t1382499051
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000526742EB000000000000C4C0
+t1382499051
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000526742E900000000000357A0
+t1382499049
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000526742E9000000000000C070
+t1382499049
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000526742D50000000000168C00
+t1382499029
+s1477632
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000526742E80000000000010630
+t1382499048
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000526742EA000000000001DF10
+t1382499050
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526742D50000000000075B00
+t1382499029
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000526742D5000000000007CC70
+t1382499029
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000526742D500000000000766C0
+t1382499029
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000526742E90000000000044DC0
+t1382499049
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526742D50000000000021FA0
+t1382499029
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000526742E9000000000002D900
+t1382499049
+s186624
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000526742E9000000000001E570
+t1382499049
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000523CDB16000000000000CC70
+t1379719958
+s52336
+
+N/usr/lib/system/libunc.dylib
+c00000000526742E1000000000000C3F0
+t1382499041
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000526742E900000000000199F0
+t1382499049
+s104944
+
+N/var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch
+t1385508614
+s5342916
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5bcf786f7645b841^4702796f7645b841^---0#1#1#--18"Check dependencies36"F740C46A-8208-47BE-A76C-112E584C2D28-
+
+CCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407201414.431270
+e407201414.525729
+r1
+xCompileC
+xbuild/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+o/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+oIn file included from /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m:28:
+oIn file included from /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.h:30:
+o/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m208"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o Auth0Sample/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler64ac6e866645b841^679886866645b841^-983"/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^In file included from /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m:28:In file included from /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.h:30:/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-407201414#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-407201414#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m0000000000000000^79#24#79#24#2696#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@108"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m0000000000000000^4182"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o Auth0Sample/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-generated-files.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-own-target-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-all-target-headers.hmap -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-project-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/usr/local/lib/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/UninstalledProducts/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources/i386 -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources -F/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -include /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch -MMD -MT dependencies -MF /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.dia -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/AppDelegate.m -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o36"36929FB2-5154-4B8B-9489-52F5EDB89F04-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407201414.526328
+e407201414.595958
+r1
+xCompileC
+xbuild/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m222"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o Auth0Sample/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera8e286866645b841^089198866645b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m0000000000000000^4224"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o Auth0Sample/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-generated-files.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-own-target-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-all-target-headers.hmap -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-project-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/usr/local/lib/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/UninstalledProducts/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources/i386 -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources -F/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -include /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch -MMD -MT dependencies -MF /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.dia -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.m -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o36"5D1B2EA5-7BD1-47DB-A404-3761158FEF82-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407201414.403759
+e407201414.430732
+r1
+xCompileC
+xbuild/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m186"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o Auth0Sample/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9ca667866645b841^e9446e866645b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m0000000000000000^4124"CompileC build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o Auth0Sample/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-generated-files.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-own-target-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-all-target-headers.hmap -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-project-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/usr/local/lib/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/UninstalledProducts/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources/i386 -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources -F/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -include /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch -MMD -MT dependencies -MF /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.dia -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/main.m -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o36"198373CF-0F13-4DF5-8585-995B58831C1D-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCompileXIB /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib
+s407201410.014835
+e407201413.804900
+r1
+xCompileXIB
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compiling /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib53"CompileXIB Auth0Sample/Classes/MainViewController.xibc7f103826645b841^c40bce856645b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib0000000000000000^1015"CompileXIB Auth0Sample/Classes/MainViewController.xib    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/MainViewController.nib /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Classes/MainViewController.xib36"11EF780C-97ED-4A91-8275-A70438F4FED9-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/de.lproj/Localizable.strings Auth0Sample/Resources/de.lproj/Localizable.strings
+s407201410.063902
+e407201410.065594
+r1
+xCopyStringsFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/de.lproj/Localizable.strings
+xAuth0Sample/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Auth0Sample/Resources/de.lproj/Localizable.strings117"CopyStringsFile build/Auth0Sample.app/de.lproj/Localizable.strings Auth0Sample/Resources/de.lproj/Localizable.strings2e7510826645b841^3acb10826645b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/de.lproj/Localizable.strings0000000000000000^793"CopyStringsFile build/Auth0Sample.app/de.lproj/Localizable.strings Auth0Sample/Resources/de.lproj/Localizable.strings    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/de.lproj -- Auth0Sample/Resources/de.lproj/Localizable.strings36"C3AD76D3-FBFF-40B2-8CF2-5E659A0BC06E-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/en.lproj/Localizable.strings Auth0Sample/Resources/en.lproj/Localizable.strings
+s407201410.007890
+e407201410.010979
+r1
+xCopyStringsFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/en.lproj/Localizable.strings
+xAuth0Sample/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Auth0Sample/Resources/en.lproj/Localizable.strings117"CopyStringsFile build/Auth0Sample.app/en.lproj/Localizable.strings Auth0Sample/Resources/en.lproj/Localizable.strings3f3902826645b841^eacf02826645b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/en.lproj/Localizable.strings0000000000000000^793"CopyStringsFile build/Auth0Sample.app/en.lproj/Localizable.strings Auth0Sample/Resources/en.lproj/Localizable.strings    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/en.lproj -- Auth0Sample/Resources/en.lproj/Localizable.strings36"EC411D63-55D8-4C61-985F-DF9814C95D7B-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/es.lproj/Localizable.strings Auth0Sample/Resources/es.lproj/Localizable.strings
+s407201410.011209
+e407201410.014420
+r1
+xCopyStringsFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/es.lproj/Localizable.strings
+xAuth0Sample/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Auth0Sample/Resources/es.lproj/Localizable.strings117"CopyStringsFile build/Auth0Sample.app/es.lproj/Localizable.strings Auth0Sample/Resources/es.lproj/Localizable.strings600203826645b841^d9af03826645b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/es.lproj/Localizable.strings0000000000000000^793"CopyStringsFile build/Auth0Sample.app/es.lproj/Localizable.strings Auth0Sample/Resources/es.lproj/Localizable.strings    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/es.lproj -- Auth0Sample/Resources/es.lproj/Localizable.strings36"77185F33-5780-445E-9967-4F8CCF403092-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCopyStringsFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/se.lproj/Localizable.strings Auth0Sample/Resources/se.lproj/Localizable.strings
+s407201410.065992
+e407201410.068306
+r1
+xCopyStringsFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/se.lproj/Localizable.strings
+xAuth0Sample/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Auth0Sample/Resources/se.lproj/Localizable.strings117"CopyStringsFile build/Auth0Sample.app/se.lproj/Localizable.strings Auth0Sample/Resources/se.lproj/Localizable.strings790611826645b841^4a7d11826645b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/se.lproj/Localizable.strings0000000000000000^793"CopyStringsFile build/Auth0Sample.app/se.lproj/Localizable.strings Auth0Sample/Resources/se.lproj/Localizable.strings    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/se.lproj -- Auth0Sample/Resources/se.lproj/Localizable.strings36"786E9A80-8F04-4261-9F25-3DF731447BBE-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/Capture.bundle build/Auth0Sample.app/Capture.bundle
+s407201410.007241
+e407201410.063477
+r1
+xCpResource
+xAuth0Sample/Resources/Capture.bundle
+xbuild/Auth0Sample.app/Capture.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/Auth0Sample.app/Capture.bundle84"CpResource Auth0Sample/Resources/Capture.bundle build/Auth0Sample.app/Capture.bundle8b3302826645b841^7d4010826645b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Capture.bundle003488d0dcffdf42^824"CpResource Auth0Sample/Resources/Capture.bundle build/Auth0Sample.app/Capture.bundle    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/Capture.bundle /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"C07101E6-F997-4FFA-9F73-B2E1ED5E23F1-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/icons/icon-72.png build/Auth0Sample.app/icon-72.png
+s407201410.002793
+e407201410.004987
+r1
+xCpResource
+xAuth0Sample/Resources/icons/icon-72.png
+xbuild/Auth0Sample.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/Auth0Sample.app/icon-72.png84"CpResource Auth0Sample/Resources/icons/icon-72.png build/Auth0Sample.app/icon-72.pnge3e200826645b841^624901826645b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72.png003488d0dcffdf42^827"CpResource Auth0Sample/Resources/icons/icon-72.png build/Auth0Sample.app/icon-72.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon-72.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"3D02ED6A-E4E9-4E4D-92F2-642F352C2D37-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/icons/icon-72@2x.png build/Auth0Sample.app/icon-72@2x.png
+s407201410.092610
+e407201410.095935
+r1
+xCpResource
+xAuth0Sample/Resources/icons/icon-72@2x.png
+xbuild/Auth0Sample.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/Auth0Sample.app/icon-72@2x.png90"CpResource Auth0Sample/Resources/icons/icon-72@2x.png build/Auth0Sample.app/icon-72@2x.pngcbd517826645b841^5b9518826645b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon-72@2x.png003488d0dcffdf42^836"CpResource Auth0Sample/Resources/icons/icon-72@2x.png build/Auth0Sample.app/icon-72@2x.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon-72@2x.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"677F2CF6-3938-4ED3-9FD8-C526FA1E917D-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/icons/icon.png build/Auth0Sample.app/icon.png
+s407201410.004549
+e407201410.006964
+r1
+xCpResource
+xAuth0Sample/Resources/icons/icon.png
+xbuild/Auth0Sample.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/Auth0Sample.app/icon.png78"CpResource Auth0Sample/Resources/icons/icon.png build/Auth0Sample.app/icon.pngbf7d01826645b841^1dc901826645b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon.png003488d0dcffdf42^818"CpResource Auth0Sample/Resources/icons/icon.png build/Auth0Sample.app/icon.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"B00D0BD4-0A82-4478-835B-8F33D503074D-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/icons/icon@2x.png build/Auth0Sample.app/icon@2x.png
+s407201410.005254
+e407201410.007479
+r1
+xCpResource
+xAuth0Sample/Resources/icons/icon@2x.png
+xbuild/Auth0Sample.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/Auth0Sample.app/icon@2x.png84"CpResource Auth0Sample/Resources/icons/icon@2x.png build/Auth0Sample.app/icon@2x.pngdc9d01826645b841^e4f801826645b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/icon@2x.png003488d0dcffdf42^827"CpResource Auth0Sample/Resources/icons/icon@2x.png build/Auth0Sample.app/icon@2x.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/icons/icon@2x.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"E186B97F-47ED-4965-93F8-DCCF9DF0B0CF-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default-568h@2x~iphone.png build/Auth0Sample.app/Default-568h@2x~iphone.png
+s407201410.089625
+e407201410.092291
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Auth0Sample.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Auth0Sample.app/Default-568h@2x~iphone.png115"CpResource Auth0Sample/Resources/splash/Default-568h@2x~iphone.png build/Auth0Sample.app/Default-568h@2x~iphone.pngdd0817826645b841^04e817826645b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-568h@2x~iphone.png003488d0dcffdf42^874"CpResource Auth0Sample/Resources/splash/Default-568h@2x~iphone.png build/Auth0Sample.app/Default-568h@2x~iphone.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-568h@2x~iphone.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"88F5F1C2-A916-4A5E-9195-B787AA5600C6-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png build/Auth0Sample.app/Default-Landscape@2x~ipad.png
+s407201410.068562
+e407201410.071910
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Auth0Sample.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Auth0Sample.app/Default-Landscape@2x~ipad.png121"CpResource Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png build/Auth0Sample.app/Default-Landscape@2x~ipad.pngb1a711826645b841^fc6e12826645b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Landscape@2x~ipad.png003488d0dcffdf42^883"CpResource Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png build/Auth0Sample.app/Default-Landscape@2x~ipad.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Landscape@2x~ipad.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"72270514-B016-4D0F-9E23-D4D7F27028C9-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default-Landscape~ipad.png build/Auth0Sample.app/Default-Landscape~ipad.png
+s407201410.072268
+e407201410.075390
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default-Landscape~ipad.png
+xbuild/Auth0Sample.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Auth0Sample.app/Default-Landscape~ipad.png115"CpResource Auth0Sample/Resources/splash/Default-Landscape~ipad.png build/Auth0Sample.app/Default-Landscape~ipad.pngd89d12826645b841^2e3c13826645b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Landscape~ipad.png003488d0dcffdf42^874"CpResource Auth0Sample/Resources/splash/Default-Landscape~ipad.png build/Auth0Sample.app/Default-Landscape~ipad.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Landscape~ipad.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"2919602D-BEE3-4077-BF6F-CA5B55DEC9AF-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png build/Auth0Sample.app/Default-Portrait@2x~ipad.png
+s407201410.075976
+e407201410.080215
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Auth0Sample.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Auth0Sample.app/Default-Portrait@2x~ipad.png119"CpResource Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png build/Auth0Sample.app/Default-Portrait@2x~ipad.png929513826645b841^db8714826645b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Portrait@2x~ipad.png003488d0dcffdf42^880"CpResource Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png build/Auth0Sample.app/Default-Portrait@2x~ipad.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Portrait@2x~ipad.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"BB5CF176-B9E5-46A1-9312-10CAA46E6003-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default-Portrait~ipad.png build/Auth0Sample.app/Default-Portrait~ipad.png
+s407201410.080418
+e407201410.084880
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default-Portrait~ipad.png
+xbuild/Auth0Sample.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Auth0Sample.app/Default-Portrait~ipad.png113"CpResource Auth0Sample/Resources/splash/Default-Portrait~ipad.png build/Auth0Sample.app/Default-Portrait~ipad.png38bc14826645b841^49bb15826645b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default-Portrait~ipad.png003488d0dcffdf42^871"CpResource Auth0Sample/Resources/splash/Default-Portrait~ipad.png build/Auth0Sample.app/Default-Portrait~ipad.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default-Portrait~ipad.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"3C6FB60F-117D-424F-B1AB-A0D3D9F7ED6A-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default@2x~iphone.png build/Auth0Sample.app/Default@2x~iphone.png
+s407201410.085101
+e407201410.087402
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default@2x~iphone.png
+xbuild/Auth0Sample.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/Auth0Sample.app/Default@2x~iphone.png105"CpResource Auth0Sample/Resources/splash/Default@2x~iphone.png build/Auth0Sample.app/Default@2x~iphone.pngabea15826645b841^806016826645b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default@2x~iphone.png003488d0dcffdf42^859"CpResource Auth0Sample/Resources/splash/Default@2x~iphone.png build/Auth0Sample.app/Default@2x~iphone.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default@2x~iphone.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"3D745314-464B-4496-84A4-90325D1CD78D-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/Resources/splash/Default~iphone.png build/Auth0Sample.app/Default~iphone.png
+s407201410.087634
+e407201410.089451
+r1
+xCpResource
+xAuth0Sample/Resources/splash/Default~iphone.png
+xbuild/Auth0Sample.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/Auth0Sample.app/Default~iphone.png99"CpResource Auth0Sample/Resources/splash/Default~iphone.png build/Auth0Sample.app/Default~iphone.png2b8716826645b841^dae616826645b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Default~iphone.png003488d0dcffdf42^850"CpResource Auth0Sample/Resources/splash/Default~iphone.png build/Auth0Sample.app/Default~iphone.png    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Resources/splash/Default~iphone.png /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"5F6F073A-ADB5-4A92-98AF-5E6BBD4D4061-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CCpResource Auth0Sample/config.xml build/Auth0Sample.app/config.xml
+s407205483.021890
+e407205483.023369
+r1
+xCpResource
+xAuth0Sample/config.xml
+xbuild/Auth0Sample.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Auth0Sample.app/config.xml66"CpResource Auth0Sample/config.xml build/Auth0Sample.app/config.xml57b4056b7645b841^1afc056b7645b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/config.xml0000000000000000^792"CpResource Auth0Sample/config.xml build/Auth0Sample.app/config.xml    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/config.xml /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"A2977668-0B5C-47FC-AEC5-A4AB0FD7FA40-
+b626559A4-EE07-44BF-BDA0-AA135183C868
+
+CGenerateDSYMFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
+s407205487.745387
+e407205487.829324
+r1
+xGenerateDSYMFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generate /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM77"GenerateDSYMFile build/Auth0Sample.app.dSYM build/Auth0Sample.app/Auth0Samplef3e8be6f7645b841^2b4fd46f7645b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM/0000000000000000^810"GenerateDSYMFile build/Auth0Sample.app.dSYM build/Auth0Sample.app/Auth0Sample    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app.dSYM36"F31DBB9C-976C-4C57-A94D-F470ACF6E48C-
+bD631F662-2463-44C1-934F-689333F9C4EF
+
+CLd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample normal i386
+s407201419.101421
+e407201419.180967
+r1
+xLd
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample
+xnormal
+xi386
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample.LinkFileList
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/main.o
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/AppDelegate.o
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample48"Ld build/Auth0Sample.app/Auth0Sample normal i38651121a8b6645b841^b5542e8b6645b841^---0#0#1#--2296"Ld build/Auth0Sample.app/Auth0Sample normal i386    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -F/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -filelist /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample_dependency_info.dat -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Auth0Sample36"4CD869A7-1E20-4B1B-A826-B639C3259C2F-
+b9DBDD81F-48EE-4860-9C62-7F77154A94BD
+
+CPhaseScriptExecution Copy\ www\ directory /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh
+s407205487.476949
+e407205487.739572
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.241s
+ouser	0m0.092s
+osys	0m0.145s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'140"PhaseScriptExecution Copy\ www\ directory build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sha4fe7a6f7645b841^855cbd6f7645b841^-42"real	0m0.241suser	0m0.092ssys	0m0.145s3(21%IDEActivityLogMessage2@14"real	0m0.241s-407205487#1#14#-0#-----2@14"user	0m0.092s-407205487#15#14#-0#-----2@13"sys	0m0.145s-407205487#29#13#-0#-----0#0#1#--23062"PhaseScriptExecution Copy\ www\ directory build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER sebas    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv BUILD_ROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv CACHE_ROOT /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode    setenv CCHROOT /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Auth0Sample.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Auth0Sample.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Auth0Sample.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Auth0Sample.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Auth0Sample.app/Executables    setenv EXECUTABLE_FOLDER_PATH Auth0Sample.app    setenv EXECUTABLE_NAME Auth0Sample    setenv EXECUTABLE_PATH Auth0Sample.app/Auth0Sample    setenv FILE_LIST /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Auth0Sample.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Auth0Sample.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Auth0Sample/Auth0Sample-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include \"/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/usr/local/lib/include\" \"/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/UninstalledProducts/include\" \"/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Auth0Sample/Auth0Sample-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Auth0Sample.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Auth0Sample.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Auth0Sample.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER sebas    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Auth0Sample.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Auth0Sample.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal/i386/Auth0Sample.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Auth0Sample.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13A603    setenv MAC_OS_X_VERSION_ACTUAL 1090    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0900    setenv MODULE_CACHE_DIR /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Objects-normal    setenv OBJROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Auth0Sample.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/PkgInfo    setenv PKGINFO_PATH Auth0Sample.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Auth0Sample.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Auth0Sample.app/PrivateHeaders    setenv PRODUCT_NAME Auth0Sample    setenv PRODUCT_SETTINGS_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Auth0Sample    setenv PROJECT_DERIVED_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/DerivedSources    setenv PROJECT_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PROJECT_FILE_PATH /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample.xcodeproj    setenv PROJECT_NAME Auth0Sample    setenv PROJECT_TEMP_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build    setenv PROJECT_TEMP_ROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH Auth0Sample.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Auth0Sample.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Auth0Sample.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Auth0Sample.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv SRCROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Auth0Sample    setenv TARGET_BUILD_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv TARGET_NAME Auth0Sample    setenv TARGET_TEMP_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build    setenv TEMP_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build    setenv TEMP_FILES_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build    setenv TEMP_FILE_DIR /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build    setenv TEMP_ROOT /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Auth0Sample.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER sebas    setenv USER_APPS_DIR /Users/sebas/Applications    setenv USER_LIBRARY_DIR /Users/sebas/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Auth0Sample.app/version.plist    setenv VERSION_INFO_BUILDER sebas    setenv VERSION_INFO_FILE Auth0Sample_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Auth0Sample  PROJECT:Auth0Sample-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Auth0Sample.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A2053    setenv XCODE_VERSION_ACTUAL 0501    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Auth0Sample.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Script-304B58A110DAC018002A0835.sh36"01837AA1-DB71-4019-A907-4589B28860BB-
+bD631F662-2463-44C1-934F-689333F9C4EF
+
+CProcessInfoPlistFile /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist
+s407205487.473559
+e407205487.475630
+r1
+xProcessInfoPlistFile
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist88"ProcessInfoPlistFile build/Auth0Sample.app/Info.plist Auth0Sample/Auth0Sample-Info.plist2158796f7645b841^c2c2796f7645b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist0000000000000000^929"ProcessInfoPlistFile build/Auth0Sample.app/Info.plist Auth0Sample/Auth0Sample-Info.plist    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    builtin-infoPlistUtility /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Info.plist -genpkginfo /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app/Info.plist36"A0BBA333-29F6-4A07-9D9A-76CC00C59FCC-
+bD631F662-2463-44C1-934F-689333F9C4EF
+
+CProcessPCH /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch Auth0Sample/Auth0Sample-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407201413.810578
+e407201414.402142
+r1
+xProcessPCH
+x/var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch
+xAuth0Sample/Auth0Sample-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile Auth0Sample/Auth0Sample-Prefix.pch306"ProcessPCH /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch Auth0Sample/Auth0Sample-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3fc5d1856645b841^46ce66866645b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Prefix.pch0000000000000000^4167"ProcessPCH /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch Auth0Sample/Auth0Sample-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-generated-files.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-own-target-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-all-target-headers.hmap -iquote /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/Auth0Sample-project-headers.hmap -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/usr/local/lib/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/UninstalledProducts/include -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources/i386 -I/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.build/Debug-iphonesimulator/Auth0Sample.build/DerivedSources -F/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build --serialize-diagnostics /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.d -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/Auth0Sample/Auth0Sample-Prefix.pch -o /var/folders/xt/q99ckh9d4zl01kn7c18bkdt40000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/Auth0Sample-Prefix-hducryyufbelsnfrafgekutpvsda/Auth0Sample-Prefix.pch.pch36"9DEDA19D-FF84-43B1-BD9A-5EADEDF77FC3-
+b89CB51DE-294A-4CB8-A0DC-4FB28329B6A1
+
+CTouch /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
+s407205487.830183
+e407205487.834844
+r1
+xTouch
+x/Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app27"Touch build/Auth0Sample.apped9ad46f7645b841^0fb9d56f7645b841^---0#0#1#--572"Touch build/Auth0Sample.app    cd /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sebas/.nave/installed/0.9.9/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/mongodb/bin"    /usr/bin/touch -c /Users/sebas/Documents/Projects/phonegap-auth0/sample/platforms/ios/build/Auth0Sample.app36"6EBDC5A1-35BE-4851-B912-45189EDC9EC7-
+bD631F662-2463-44C1-934F-689333F9C4EF
+
