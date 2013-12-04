@@ -1,6 +1,6 @@
 ## Usage
 
-1. Add the following element to your **config.xml** to always use the latest version:
+1. Add the following element to your **config.xml** to always use the latest version of this plugin:
 
 	~~~xml
 	<gap:plugin name="com.phonegap.auth0" />
