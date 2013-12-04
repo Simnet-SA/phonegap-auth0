@@ -28,12 +28,5 @@
     <engine name="cordova" version=">=3.0.0" />
   </engines>
 
-  <platform name="android">
-    <!-- android-specific elements -->
-  </platform>
-  <platform name="ios">
-    <!-- ios-specific elements -->
-  </platform>
-
   <dependency id="org.apache.cordova.core.inappbrowser" url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git" />
 </plugin>
