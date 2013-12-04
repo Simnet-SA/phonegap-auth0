@@ -9,7 +9,7 @@
 	or to use the exact version:
 	
 	~~~xml
-	<gap:plugin name="com.phonegap.auth0" version="0.0.1" />
+	<gap:plugin name="com.phonegap.auth0" version="0.0.2" />
 	~~~
 	
 2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
