@@ -1,9 +1,15 @@
 ## Usage
 
-1. Install plugin into your project:
+1. Add the following element to your **config.xml** to always use the latest version:
 
+	~~~xml
+	<gap:plugin name="com.phonegap.auth0" />
 	~~~
-	phonegap local plugin add https://github.com/auth0/phonegap-auth0
+	
+	or to use the exact version:
+	
+	~~~xml
+	<gap:plugin name="com.phonegap.auth0" version="0.0.1" />
 	~~~
 	
 2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
