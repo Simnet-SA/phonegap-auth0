@@ -10,7 +10,7 @@
     Client library for the Auth0 API.
   </description>
 
-  <keywords>auth0 oauth federation wsfed adfs office365 googleapps</keywords>
+  <keywords>auth0, oauth, federation, wsfed, adfs, office365, googleapps</keywords>
 
   <license>MIT</license>
   
