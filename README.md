@@ -3,13 +3,13 @@
 1. Add the following element to your **config.xml** to always use the latest version of this plugin:
 
 	~~~xml
-	<gap:plugin name="com.phonegap.auth0" />
+	<gap:plugin name="com.auth0.sdk" />
 	~~~
 	
 	or to use the exact version:
 	
 	~~~xml
-	<gap:plugin name="com.phonegap.auth0" version="0.0.2" />
+	<gap:plugin name="com.auth0.sdk" version="0.0.5" />
 	~~~
 	
 2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
