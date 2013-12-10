@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.phonegap.auth0"
-    version="0.0.2">
+    version="0.0.3">
 
   <name>Auth0</name>
   
@@ -29,10 +29,7 @@
   </engines>
   
   <platform name="android"></platform>
-  <platform name="bb10"></platform>
   <platform name="ios"></platform>
-  <platform name="wp7"></platform>
-  <platform name="wp8"></platform>
   <platform name="windows8"></platform>
 
   <dependency id="org.apache.cordova.core.inappbrowser" url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git" />
