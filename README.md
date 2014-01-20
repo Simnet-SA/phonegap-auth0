@@ -23,16 +23,13 @@
 	~~~javascript
 	var auth0 = new Auth0Client(
 		"YOUR_AUTH0_DOMAIN", // e.g.: "mytenant.auth0.com"
-		"YOUR_CLIENT_ID",
-		"YOUR_CLIENT_SECRET");
+		"YOUR_CLIENT_ID");
 	~~~
-  
-  > Note: it is recommended to store the secret safely.
 
 4. Trigger login (with Widget):
 
 	~~~javascript
-	auth0.Login(function (err, result) {
+	auth0.login(function (err, result) {
 		if (err) return err;
 		/* 
 		Use result to do wonderful things, e.g.: 
@@ -47,7 +44,7 @@
 Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account):
 
 ~~~javascript
-auth0.Login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
+auth0.login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
 	if (err) return err;
 	/* 
 	Use result to do wonderful things, e.g.: 
@@ -62,7 +59,7 @@ auth0.Login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, res
 Or with specific user name and password (only for providers that support this):
 
 ~~~javascript
-auth0.Login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
+auth0.login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
 	if (err) return err;
 	/* 
 	Use result to do wonderful things, e.g.: 
@@ -80,6 +77,22 @@ Optionally you can specify the `scope` parameter. There are two possible values 
 
 * __scope: "openid"__ _(default)_ - It will return, not only the `access_token`, but also an `id_token` which is a Json Web Token (JWT). The JWT will only contain the user id.
 * __scope: "openid profile"__ - If you want the entire user profile to be part of the `id_token`.
+
+### Delegation Token Request
+
+You can obtain a delegation token specifying the ID of the target client (`targetClientId`) and, optionally, an object (`options`) in order to include custom parameters like scope or id_token:
+
+~~~js
+var targetClientId = "{TARGET_CLIENT_ID}";
+var options = {
+    "scope": "openid profile",		// default: openid
+    "id_token": "USER_ID_TOKEN"		// default: id_token of the authenticated user (client.getCurrentUser().idToken)
+};
+
+auth0.getDelegationToken(targetClientId, options, function (err, delegationResult) {
+	// Call your API using delegationResult.id_token
+});
+~~~
 
 ## License
 
