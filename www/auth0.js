@@ -1,4 +1,4 @@
-function Auth0Client(domain, clientId, clientSecret) {
+function Auth0Client(domain, clientId) {
 
   // validations
   if (!$) throw new Error('You must include jquery to use Auth0 plugin');
@@ -6,12 +6,12 @@ function Auth0Client(domain, clientId, clientSecret) {
   this.AuthorizeUrl           = "https://{domain}/authorize";
   this.LoginWidgetUrl         = "https://{domain}/login/";
   this.ResourceOwnerEndpoint  = "https://{domain}/oauth/ro";
+  this.DelegationEndpoint     = "https://{domain}/delegation";
   this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
   this.DefaultCallback        = "https://{domain}/mobile";
 
   this.domain = domain;
   this.clientId = clientId;
-  this.clientSecret = clientSecret;
 }
 
 Auth0Client.prototype.login = function (options, callback) {
@@ -60,7 +60,6 @@ Auth0Client.prototype.login = function (options, callback) {
 
     $.post(endpoint, {
       "client_id":      this.clientId,
-      "client_secret":  this.clientSecret,
       "connection":     options.connection,
       "username":       options.username,
       "password":       options.password,
