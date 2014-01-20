@@ -99,6 +99,48 @@ Auth0Client.prototype.login = function (options, callback) {
   }
 };
 
+Auth0Client.prototype.getDelegationToken = function (targetClientId, options, callback) {
+
+    if (typeof options === 'function') {
+        callback = options;
+        options = {};
+    }
+
+    // ensure id_token
+    var currentUser = this.getCurrentUser();
+    var id_token = options.id_token || currentUser ? currentUser.idToken : null;
+    delete options.id_token;
+
+    if (!id_token) {
+        return callback(new Error("You need to login first or specify a value for id_token parameter."));
+    }
+
+    var endpoint = this.DelegationEndpoint.replace(/{domain}/, this.domain);
+    var parameters = {
+      "grant_type":     'urn:ietf:params:oauth:grant-type:jwt-bearer',
+      "id_token":       id_token,
+      "target":         targetClientId,
+      "client_id":      this.clientId
+    };
+
+    for (var k in options) {
+      if (options[k] !== undefined) {
+        parameters[k] = options[k];
+      }
+    }
+
+    $.post(endpoint, parameters)
+    .done(function (result) {
+      callback(null, result);
+    })
+    .fail(function (resp) {
+      var message = resp.responseJSON ? 
+        resp.responseJSON.error + ': ' + resp.responseJSON.error_description :
+        resp.responseText;
+      callback(new Error(message));
+    });
+};
+
 Auth0Client.prototype.logout = function (callback) {
   this._clearLocalStorage();  
   if (callback) callback();
