@@ -32,5 +32,5 @@
   <platform name="ios"></platform>
   <platform name="windows8"></platform>
 
-  <dependency id="org.apache.cordova.core.inappbrowser" url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git" />
+  <dependency id="org.apache.cordova.inappbrowser" url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git" />
 </plugin>
