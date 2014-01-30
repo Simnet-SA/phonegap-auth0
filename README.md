@@ -12,6 +12,12 @@
 	<gap:plugin name="com.auth0.sdk" version="0.1.1" />
 	~~~
 	
+	or specifing the GIT repository url:
+	
+	~~~xml
+	<dependency id="com.auth0.sdk" url="https://github.com/auth0/phonegap-auth0.git" />
+	~~~
+	
 2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
 
 	~~~javascript
@@ -41,35 +47,35 @@
 	});
 	~~~
 
-Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account):
-
-~~~javascript
-auth0.login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
-	if (err) return err;
-	/* 
-	Use result to do wonderful things, e.g.: 
-		- get user email => result.profile.email
-		- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
-		- get Windows Azure AD groups => result.profile.groups
-		- etc.
-	*/
-});
-~~~
-
-Or with specific user name and password (only for providers that support this):
-
-~~~javascript
-auth0.login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
-	if (err) return err;
-	/* 
-	Use result to do wonderful things, e.g.: 
-		- get user email => result.profile.email
-		- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
-		- get Windows Azure AD groups => result.profile.groups
-		- etc.
-	*/
-});
-~~~
+	Or you can use the connection as a parameter (e.g. here we login with a Windows Azure AD account):
+	
+	~~~javascript
+	auth0.login({ connection: "auth0waadtests.onmicrosoft.com" }, function (err, result) {
+		if (err) return err;
+		/* 
+		Use result to do wonderful things, e.g.: 
+			- get user email => result.profile.email
+			- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
+			- get Windows Azure AD groups => result.profile.groups
+			- etc.
+		*/
+	});
+	~~~
+	
+	Or with specific user name and password (only for providers that support this):
+	
+	~~~javascript
+	auth0.login({ connection: "my-db-connection", username: "username", password: "password" }, function (err, result) {
+		if (err) return err;
+		/* 
+		Use result to do wonderful things, e.g.: 
+			- get user email => result.profile.email
+			- get facebook/google/twitter/etc access token => result.profile.identities[0].access_token
+			- get Windows Azure AD groups => result.profile.groups
+			- etc.
+		*/
+	});
+	~~~
 
 ### Scope
 
