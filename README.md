@@ -1,30 +1,30 @@
 ## Usage
 
-1. Add the following element to your **config.xml** to always use the latest version of this plugin:
+1. Install the plugin executing the following at the command line:
+	
+	~~~
+	phonegap local plugin add https://github.com/auth0/phonegap-auth0.git
+	~~~
+
+2. Enable the plugin within your PhoneGap application by adding this line to the `www/config.xml` file:
+
+	~~~xml
+	<plugin name="Auth0Client" value="com.auth0.sdk" />
+	~~~
+	
+	Alternatively, you can ignore step #1 and include the following element to your `www/config.xml` file:
 
 	~~~xml
 	<gap:plugin name="com.auth0.sdk" />
 	~~~
-	
-	or to use the exact version:
-	
-	~~~xml
-	<gap:plugin name="com.auth0.sdk" version="0.1.1" />
-	~~~
-	
-	or specifing the GIT repository url:
-	
-	~~~xml
-	<dependency id="com.auth0.sdk" url="https://github.com/auth0/phonegap-auth0.git" />
-	~~~
-	
-2. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
+
+3. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
 
 	~~~javascript
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	~~~
 	
-3. Instantiate Auth0Client:
+4. Instantiate Auth0Client:
 
 	~~~javascript
 	var auth0 = new Auth0Client(
@@ -32,7 +32,7 @@
 		"YOUR_CLIENT_ID");
 	~~~
 
-4. Trigger login (with Widget):
+5. Trigger login (with Widget):
 
 	~~~javascript
 	auth0.login(function (err, result) {
