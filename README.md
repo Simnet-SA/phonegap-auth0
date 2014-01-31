@@ -12,7 +12,7 @@
 	<plugin name="Auth0Client" value="com.auth0.sdk" />
 	~~~
 	
-	Alternatively, you can ignore step #1 and include the following element to your `www/config.xml` file:
+	If you prefer using PhoneGap Build, you can ignore step #1 and include the following element to your `www/config.xml` file:
 
 	~~~xml
 	<gap:plugin name="com.auth0.sdk" />
