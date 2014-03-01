@@ -18,13 +18,19 @@
 	<gap:plugin name="com.auth0.sdk" />
 	~~~
 
-3. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
+3. Edit the `www/config.xml` file to include your Auth0 domain in the list of allowed origins:
+
+	~~~xml
+	<access origin="https://{YOUR_AUTH0_DOMAIN}" /> <!-- // e.g.: "https://mytenant.auth0.com" -->
+	~~~
+
+4. Make sure to include the <a target="_new" href="http://jquery.com/download/">jQuery</a> library:
 
 	~~~javascript
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	~~~
 	
-4. Instantiate Auth0Client:
+5. Instantiate Auth0Client:
 
 	~~~javascript
 	var auth0 = new Auth0Client(
@@ -32,7 +38,7 @@
 		"YOUR_CLIENT_ID");
 	~~~
 
-5. Trigger login (with Widget):
+6. Trigger login (with Widget):
 
 	~~~javascript
 	auth0.login(function (err, result) {
