@@ -148,7 +148,7 @@ Auth0Client.prototype.getDelegationToken = function (targetClientId, options, ca
 };
 
 Auth0Client.prototype.logout = function (callback) {
-  this._clearLocalStorage();  
+  this._removeLocalStorage('auth0User');  
   if (callback) callback();
 };
 
@@ -165,8 +165,8 @@ Auth0Client.prototype._setLocalStorage = function (key, value) {
   window.localStorage.setItem(key, JSON.stringify(value));
 };
 
-Auth0Client.prototype._clearLocalStorage = function () {
-  window.localStorage.clear();
+Auth0Client.prototype._removeLocalStorage = function (key) {
+  window.localStorage.removeItem(key);
 };
 
 Auth0Client.prototype._getUserInfo = function (endpoint, callback) {
