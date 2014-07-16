@@ -30,7 +30,7 @@ Auth0Client.prototype.login = function (options, callback) {
   var userInfoEndpoint = this.UserInfoEndpoint.replace(/{domain}/, this.domain);
 
   // defaults
-  options.scope = options.scope ? encodeURI(options.scope) : "openid";
+  options.scope = options.scope ? options.scope : "openid";
   options.connection = options.connection || '';
 
   // done
