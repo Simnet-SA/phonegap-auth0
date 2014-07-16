@@ -82,8 +82,8 @@ Auth0Client.prototype.login = function (options, callback) {
     var loginWidgetUrl = this.LoginWidgetUrl.replace(/{domain}/, this.domain);
     var callbackUrl = this.DefaultCallback.replace(/{domain}/, this.domain);
 
-    authorizeUrl += "?client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + options.scope + "&connection=" + options.connection;
-    loginWidgetUrl += "?client=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + options.scope;
+    authorizeUrl += "?client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope) + "&connection=" + options.connection;
+    loginWidgetUrl += "?client=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope);
 
     var auth0Url = options.connection ? authorizeUrl : loginWidgetUrl;
 
