@@ -1,0 +1,8 @@
+{
+  "name": "phonegap-auth0",
+  "version": "0.1.2",
+  "author": "Auth0",
+  "description":"Auth0 PhoneGap plugin",
+  "repository": "github:sagely/phonegap-auth0",
+	"license": "MIT"
+}
