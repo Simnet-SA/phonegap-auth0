@@ -85,7 +85,7 @@ Auth0Client.prototype.login = function (options, callback) {
     authorizeUrl += "?client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope) + "&connection=" + options.connection;
     loginWidgetUrl += "?client=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope);
 
-    var auth0Url = options.connection ? authorizeUrl : loginWidgetUrl;
+    var auth0Url = authorizeUrl;
 
     if (options.extra) {
       Object.keys(options.extra).forEach(function (k) {
