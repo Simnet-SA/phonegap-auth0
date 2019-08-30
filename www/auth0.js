@@ -9,6 +9,7 @@ function Auth0Client(domain, clientId) {
   this.DelegationEndpoint     = "https://{domain}/delegation";
   this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
   this.DefaultCallback        = "https://{domain}/mobile";
+  this.DefaultLogout		      = "https://{domain}/v2/logout/";
 
   this.domain = domain;
   this.clientId = clientId;
@@ -85,8 +86,8 @@ Auth0Client.prototype.login = function (options, callback) {
     authorizeUrl += "?client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope) + "&connection=" + options.connection;
     loginWidgetUrl += "?client=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope);
 
-    var auth0Url = options.connection ? authorizeUrl : loginWidgetUrl;
-    
+	var auth0Url = options.connection ? authorizeUrl : loginWidgetUrl;
+	
     if (options.extra) {
       Object.keys(options.extra).forEach(function (k) {
         auth0Url += '&' + k + '=' + encodeURI(options.extra[k]);
@@ -94,14 +95,18 @@ Auth0Client.prototype.login = function (options, callback) {
     }
     
     var authWindow = window.open(auth0Url, '_blank', 'location=no,toolbar=no');
-    authWindow.addEventListener('loadstart', function (e) {
 
-      if (e.url.indexOf(callbackUrl + '#') !== 0) return;
-      
-      var parsedResult = parseResult(e.url);
-      authWindow.close();
-      return done(null, parsedResult);
-    });
+	authWindow.addEventListener('loadstart', function (e) {
+	  
+	  if (e.url.indexOf(callbackUrl + '#') !== 0) return;
+	  
+	  var parsedResult = parseResult(e.url);
+	  authWindow.close();
+	  return done(null, parsedResult);
+	});
+
+	console.log(authWindow);
+	
   }
 };
 
@@ -149,6 +154,11 @@ Auth0Client.prototype.getDelegationToken = function (targetClientId, options, ca
 
 Auth0Client.prototype.logout = function (callback) {
   this._removeLocalStorage('auth0User');  
+  var logoutUrl = this.DefaultLogout.replace(/{domain}/, this.domain);
+  var logoutWindow = window.open(logoutUrl,'_blank','location=no,toolbar=no');
+  logoutWindow.addEventListener('loadstart', function (e) {
+	  logoutWindow.close();
+  });
   if (callback) callback();
 };
 
