@@ -15,7 +15,7 @@
 	If you prefer using <a href="http://build.phonegap.com/" target="_new">PhoneGap Build</a>, you can ignore step #1 and include the following element to your `www/config.xml` file:
 
 	~~~xml
-	<gap:plugin name="com.auth0.sdk" />
+	<plugin name="Auth0Client" value="com.auth0.sdk" spec="https://github.com/Kelows/phonegap-auth0.git"/>
 	~~~
 
 3. Edit the `www/config.xml` file to include your Auth0 domain in the list of allowed origins:
