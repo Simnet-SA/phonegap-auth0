@@ -104,8 +104,6 @@ Auth0Client.prototype.login = function (options, callback) {
 	  authWindow.close();
 	  return done(null, parsedResult);
 	});
-
-	console.log(authWindow);
 	
   }
 };
