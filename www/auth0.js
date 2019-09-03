@@ -9,7 +9,7 @@ function Auth0Client(domain, clientId) {
   this.DelegationEndpoint     = "https://{domain}/delegation";
   this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
   this.DefaultCallback        = "https://{domain}/mobile";
-  this.DefaultLogout		      = "https://{domain}/v2/logout/";
+  this.DefaultLogout		      = "https://{domain}/v2/logout?federated";
 
   this.domain = domain;
   this.clientId = clientId;
