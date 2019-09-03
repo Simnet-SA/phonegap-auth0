@@ -94,7 +94,7 @@ Auth0Client.prototype.login = function (options, callback) {
       });
     }
     
-    var authWindow = window.open(auth0Url, '_blank', 'location=no');
+    var authWindow = window.open(auth0Url, '_blank', 'location=no,clearsessioncache=yes');
 
 	authWindow.addEventListener('loadstart', function (e) {
 	  
@@ -153,7 +153,7 @@ Auth0Client.prototype.getDelegationToken = function (targetClientId, options, ca
 Auth0Client.prototype.logout = function (callback) {
   this._removeLocalStorage('auth0User');  
   var logoutUrl = this.DefaultLogout.replace(/{domain}/, this.domain);
-  var logoutWindow = window.open(logoutUrl,'_blank','location=no');
+  var logoutWindow = window.open(logoutUrl,'_blank','location=no,clearsessioncache=yes');
   logoutWindow.addEventListener('loadstart', function (e) {
 	  logoutWindow.close();
   });
