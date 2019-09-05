@@ -9,7 +9,7 @@ function Auth0Client(domain, clientId) {
   this.DelegationEndpoint     = "https://{domain}/delegation";
   this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
   this.DefaultCallback        = "https://{domain}/mobile";
-  this.DefaultLogout		      = "https://{domain}/v2/logout?federated";
+  this.DefaultLogout		      = "https://{domain}/v2/logout?federated&returnTo="+this.DefaultCallback;
 
   this.domain = domain;
   this.clientId = clientId;
@@ -83,7 +83,7 @@ Auth0Client.prototype.login = function (options, callback) {
     var loginWidgetUrl = this.LoginWidgetUrl.replace(/{domain}/, this.domain);
     var callbackUrl = this.DefaultCallback.replace(/{domain}/, this.domain);
 
-    authorizeUrl += "?prompt=login&client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope) + "&connection=" + options.connection;
+    authorizeUrl += "?client_id=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope) + "&connection=" + options.connection;
     loginWidgetUrl += "?client=" + this.clientId + "&redirect_uri=" + callbackUrl + "&response_type=token&scope=" + encodeURI(options.scope);
 
 	var auth0Url = options.connection ? authorizeUrl : loginWidgetUrl;
