@@ -107,7 +107,8 @@ Auth0Client.prototype.login = function (options, callback) {
 	  
 	authWindow.addEventListener("close", function( event ) {
 	  // make the close button ineffective
-		return done(new Error("Window has been closed"));
+		return done(new Error("Window has been closed"),null);
+		console.log("close window");
 	}, false);
 	
   }
