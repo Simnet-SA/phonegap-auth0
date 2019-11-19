@@ -94,16 +94,21 @@ Auth0Client.prototype.login = function (options, callback) {
       });
     }
     
-    var authWindow = window.open(auth0Url, '_blank', 'location=no,clearsessioncache=yes,clearcache=yes');
+    	var authWindow = window.open(auth0Url, '_blank', 'location=no,clearsessioncache=yes,clearcache=yes');
 
 	authWindow.addEventListener('loadstart', function (e) {
-	  
+
 	  if (e.url.indexOf(callbackUrl + '#') !== 0) return;
-	  
+
 	  var parsedResult = parseResult(e.url);
 	  authWindow.close();
 	  return done(null, parsedResult);
 	});
+	  
+	authWindow.addEventListener("close", function( event ) {
+	  // make the close button ineffective
+		return done(new Error("Window has been closed"));
+	}, false);
 	
   }
 };
