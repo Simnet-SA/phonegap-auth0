@@ -25,7 +25,7 @@ var auth0 = new Auth0Client(
  ```
  Prompt login : 
  ```
- auth0.login({connection:'YOUR_CONNECTION_NAME',scope:"openid email user_metadata profile"},function(err,result){})
+ auth0.login({connection:'YOUR_CONNECTION_NAME',scope:"YOUR SCOPES"})
  ```
 Result is stored in
 ```
