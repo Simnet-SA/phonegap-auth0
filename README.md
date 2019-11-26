@@ -1,10 +1,11 @@
 ## Dependencies
 - cordova-plugin-safariviewcontroller
-- cordova-plugin-customurlscheme
+- cordova-plugin-customurlscheme (properly configured)
 
 ## Implement
-"safariview.js" to your app to handle the custom URL scheme callback
-Properly configure all your URLs in auth0.js before building (fork the repository for more ease)
+"safariview.js" to your app to handle the custom URL scheme callback <br>
+Properly configure all your URLs in auth0.js before using (fork the repository for more ease)
+Add your allowed allbacks URLs in your Auth0 account
 
 ## Usage
 To install : add the following in your config.xml
