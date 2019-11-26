@@ -8,7 +8,7 @@ function Auth0Client(domain, clientId) {
   this.ResourceOwnerEndpoint  = "https://{domain}/oauth/ro";
   this.DelegationEndpoint     = "https://{domain}/delegation";
   this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
-  this.DefaultCallback        = "https://{domain}/mobile";
+  this.DefaultCallback        = "https://apmob.televerbier.ch:4443/mobileCb.html";
   this.DefaultLogout		      = "https://{domain}/v2/logout?federated&returnTo="+this.DefaultCallback;
 
   this.domain = domain;
@@ -94,7 +94,7 @@ Auth0Client.prototype.login = function (options, callback) {
       });
     }
     
-    	var authWindow = window.open(auth0Url, '_blank', 'location=no,clearsessioncache=yes,clearcache=yes');
+    	var authWindow = openUrl(auth0Url,false);
 
 	authWindow.addEventListener('loadstart', function (e) {
 
