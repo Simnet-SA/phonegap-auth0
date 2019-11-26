@@ -25,9 +25,9 @@ var auth0 = new Auth0Client(
  ```
  Prompt login : 
  ```javascript
- auth0.login({connection:'YOUR_CONNECTION_NAME',scope:"YOUR SCOPES"})
+auth0.login({connection:'YOUR_CONNECTION_NAME',scope:"YOUR SCOPES"})
  ```
 Result is stored in
 ```javascript
- localStorage.getItem('auth0User');
+localStorage.getItem('auth0User');
  ```
