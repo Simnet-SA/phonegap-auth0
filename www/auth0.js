@@ -7,11 +7,12 @@ function Auth0Client(domain, clientId) {
   this.LoginWidgetUrl         = "https://{domain}/login/";
   this.ResourceOwnerEndpoint  = "https://{domain}/oauth/ro";
   this.DelegationEndpoint     = "https://{domain}/delegation";
-  this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";
+  this.UserInfoEndpoint       = "https://{domain}/userinfo?access_token=";	
+// this.DefaultCallback        = "https://{domain}/mobile";
+  this.DefaultCallback        = "https://apmob.televerbier.ch:4443/app/mobileCb.html";
   this.DefaultLogout		= "https://{domain}/v2/logout?federated&returnTo="+this.DefaultCallback;
 	
-	// this.DefaultCallback        = "https://{domain}/mobile";
-	 this.DefaultCallback        = "https://apmob.televerbier.ch:4443/app/mobileCb.html";
+	
 
   this.domain = domain;
   this.clientId = clientId;
