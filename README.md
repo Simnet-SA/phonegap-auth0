@@ -9,11 +9,11 @@ Add your allowed callbacks URLs in your Auth0 account
 
 ## Usage
 To install : add the following in your config.xml
-```
+```xml
 <plugin name="Auth0Client" value="com.auth0.sdk" spec="https://github.com/Simnet-SA/phonegap-auth0"/>
 ```
 Or if you forked the repo : 
-```
+```xml
 <plugin name="Auth0Client" value="com.auth0.sdk" spec="FORKED_REPO_URL"/>
 ```
 
