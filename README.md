@@ -24,10 +24,10 @@ var auth0 = new Auth0Client(
         "YOUR_CLIENT_ID");
  ```
  Prompt login : 
- ```
+ ```javascript
  auth0.login({connection:'YOUR_CONNECTION_NAME',scope:"YOUR SCOPES"})
  ```
 Result is stored in
-```
+```javascript
  localStorage.getItem('auth0User');
  ```
