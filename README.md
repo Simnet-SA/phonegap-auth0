@@ -1,9 +1,11 @@
 ## Dependencies
 - cordova-plugin-safariviewcontroller
-- cordova-plugin-customurlscheme (properly configured)
+- cordova-plugin-customurlscheme (properly configured) 
+
 
 ## Implement
-"safariview.js" to your app to handle the custom URL scheme callback <br>
+Help to implement custom URL scheme : https://medium.com/@jlchereau/stop-using-inappbrowser-for-your-cordova-phonegap-oauth-flow-a806b61a2dc5 <br>
+Implement <b>safariview.js</b> to your app to handle the custom URL scheme callback (edit as you need) <br>
 Properly configure all your URLs in auth0.js before using (fork the repository for more ease) <br>
 Add your allowed callbacks URLs in your Auth0 account
 
