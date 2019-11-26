@@ -211,5 +211,15 @@ Auth0Client.prototype._parseResult = function (result) {
 
   return tokens;
 };
+Auth0Client.prototype.get = function (varName) {
+  switch(varName){
+    case "UserInfoEndpoint":
+      return this.UserInfoEndpoint;  
+      break;
+    case "domain":
+      return this.domain;  
+      break;
+  }
+};
 
 module.exports = Auth0Client;
