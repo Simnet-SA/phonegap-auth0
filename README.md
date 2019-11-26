@@ -4,7 +4,7 @@
 
 ## Implement
 "safariview.js" to your app to handle the custom URL scheme callback <br>
-Properly configure all your URLs in auth0.js before using (fork the repository for more ease)
+Properly configure all your URLs in auth0.js before using (fork the repository for more ease) <br>
 Add your allowed allbacks URLs in your Auth0 account
 
 ## Usage
